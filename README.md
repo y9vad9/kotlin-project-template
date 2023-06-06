@@ -7,3 +7,6 @@ Every time I create a new project, I do a lot of routine work, so this repo shou
 ## Initializing
 - `setting.gradle.kts`: Set your root project name
 - `gradle/libs.versions.toml`: Add your dependencies
+
+## Builtins
+This template also provides some useful [build plugins](build-plugins).

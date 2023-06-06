@@ -1,6 +1,6 @@
 [versions]
-kotlin = "1.8.0"
-kotlinx-coroutines = "1.6.4"
+kotlin = "1.8.21"
+kotlinx-coroutines = "1.7.1"
 kotlinx-serialization = "1.4.1"
 ktor = "2.0.1"
 kafka = "3.3.1"
@@ -8,7 +8,7 @@ jupiter = "5.4.0"
 exposed = "0.41.1"
 kmongo = "4.8.0"
 androidGradlePlugin = "7.3.1"
-androidComposeVersion = "1.4.0-alpha02"
+androidComposeVersion = "1.5.0-beta01"
 
 [libraries]
 kotlinx-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
@@ -58,3 +58,4 @@ kotlin-js = { id = "org.jetbrains.kotlin.js", version.ref = "kotlin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 android-application = { id = "com.android.library", version.ref = "androidGradlePlugin" }
+bundled-publish-library = { id = "publish-library", version.require = "SNAPSHOT" }

@@ -1,5 +1,4 @@
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-enableFeaturePreview("VERSION_CATALOGS")
 
 pluginManagement {
     repositories {
@@ -21,5 +20,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "kotlin-project-template"
 
-//includeBuild("buildUtils/service-deploy")
-//includeBuild("buildUtils/library-deploy")
+includeBuild("build-plugins/publish-library")
