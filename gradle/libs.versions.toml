@@ -50,6 +50,8 @@ compose-activity = { module = "androidx.activity:activity-compose", version.ref 
 compose-viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidComposeVersion" }
 compose-accompanist-systemUiController = { module = "com.google.accompanist:accompanist-systemuicontroller", version.require = "0.28.0" }
 
+kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+
 [plugins]
 kotlinx-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
@@ -58,4 +60,9 @@ kotlin-js = { id = "org.jetbrains.kotlin.js", version.ref = "kotlin" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 android-application = { id = "com.android.library", version.ref = "androidGradlePlugin" }
-bundled-publish-library = { id = "publish-library", version.require = "SNAPSHOT" }
+
+
+conventions-multiplatform = { id = "multiplatform-convention", version.require = "SNAPSHOT" }
+conventions-multiplatform-library = { id = "multiplatform-library-convention", version.require = "SNAPSHOT" }
+
+conventions-jvm = { id = "jvm-convention", version.require = "SNAPSHOT" }

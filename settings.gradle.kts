@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "kotlin-project-template"
 
-includeBuild("build-plugins/publish-library")
+includeBuild("build-conventions")
