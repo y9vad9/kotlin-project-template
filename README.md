@@ -42,8 +42,6 @@ plugins {
 
 > `conventions` is a property exposed by the template via `buildSrc`, providing easy access to convention plugin identifiers.
 
----
-
 ### Gradle Properties
 
 The template comes preconfigured with sensible defaults in `gradle.properties` to optimize performance and compatibility across development and CI environments.
