@@ -1,4 +1,4 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kotlin_Icon_2021.svg/2048px-Kotlin_Icon_2021.svg.png" width=24 height=24 /> Kotlin Project Template
+# <img src="https://github.com/user-attachments/assets/4ac1304c-fb14-4afe-a6ae-a8da1035a06c" width=24 height=24 /> Kotlin Project Template
 
 Project template for convenient Kotlin project setup using [Gradle convention plugins](https://docs.gradle.org/current/samples/sample_convention_plugins.html#compiling_convention_plugins) and [version catalogs](https://docs.gradle.org/current/userguide/platforms.html#sub:version-catalog).
 
