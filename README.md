@@ -92,12 +92,12 @@ These properties can be modified or disabled as needed for your specific project
 
 ## CI Workflows
 
-This template includes pre-configured GitHub Actions workflows, enabled for all pull requests and pushes to the `main` branch:
+This template includes pre-configured GitHub Actions workflow, enabled for all pull requests and pushes to the `main` branch:
 
-- [Code Quality (CodeQL)](.github/workflows/analyse.codeql.yml): Static analysis for potential security vulnerabilities and quality issues.
-- [Coverage Check](.github/workflows/check.coverage.yml): Verifies test coverage based on configured thresholds.
-- [Detekt](.github/workflows/check.detekt.yml): Runs static analysis using Detekt with full rule set.
-- [Tests](.github/workflows/check.tests.yml): Executes unit tests and reports results.
+- [Code Quality (CodeQL)](.github/workflows/ci.yml): Static analysis for potential security vulnerabilities and quality issues.
+- [Coverage Check](.github/workflows/ci.yml): Verifies test coverage based on configured thresholds.
+- [Detekt](.github/workflows/ci.yml): Runs static analysis using Detekt with full rule set.
+- [Tests](.github/workflows/ci.yml): Executes unit tests and reports results.
 
 ### Dependabot
 

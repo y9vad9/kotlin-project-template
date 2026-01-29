@@ -74,13 +74,14 @@ detekt {
         files("src/testFixtures/kotlin")
     )
 
-    allRules = true
     parallel = true
+
+    config.from(rootProject.file("detekt.yml"))
 }
 
 tasks.withType<Detekt>().configureEach {
     reports {
-        html.required.set(true)
-        html.outputLocation.set(file("build/reports/detekt.html"))
+        html.required = true
+        html.outputLocation = file("build/reports/detekt.html")
     }
 }
